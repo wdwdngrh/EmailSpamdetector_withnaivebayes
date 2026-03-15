@@ -1,6 +1,11 @@
 # 📧 Deteksi Spam Email dengan Algoritma Naive Bayes
 
-Halooo! Dokumentasi ini menjelaskan konsep dasar di balik pendeteksian email spam menggunakan algoritma **Naive Bayes**, mulai dari teori matematika dasar hingga cara membaca hasil evaluasi modelnya.
+Kelas Probabilistik dan Statistik (F) \
+Anggote Kelompok 6:
+1. Fauzan Hafiz Amandani (5025241087)
+2. Willy Dava Nugraha (5025241090)
+3. Farras Abdurrazaq Ar rasyid (5025241091)
+4. Abdullah Sultan Barizy (5025241092)
 
 ---
 
@@ -74,17 +79,18 @@ Setelah model selesai dilatih dan diuji, kita akan mendapatkan metrik evaluasi. 
 
 | | Ditebak AMAN | Ditebak SPAM |
 |---|:---:|:---:|
-| **Aslinya AMAN** | 964 (Benar) | 2 (Salah Tebak) |
-| **Aslinya SPAM** | 16 (Lolos) | 133 (Benar) |
+| **Aslinya AMAN** | 1202 (Benar) | 4 (Salah Tebak) |
+| **Aslinya SPAM** | 16 (Lolos) | 171 (Benar) |
 
-* **True Negative (964):** Email aman yang *sukses* ditebak aman.
-* **True Positive (133):** Email spam yang *sukses* ditebak spam.
-* **False Positive (2):** Email aman tapi *salah tebak* masuk folder spam (menyebalkan bagi user).
+* **True Negative (1202):** Email aman yang *sukses* ditebak aman.
+* **True Positive (171):** Email spam yang *sukses* ditebak spam.
+* **False Positive (4):** Email aman tapi *salah tebak* masuk folder spam (menyebalkan bagi user).
 * **False Negative (16):** Email spam yang *lolos* masuk ke kotak masuk utama (berbahaya).
 
 ## 5. Berikut adalah hasil Test Run
 
 - Heatmap
+
 
 
 - Verdict for some test cases
